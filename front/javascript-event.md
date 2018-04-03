@@ -1,3 +1,5 @@
+## JavaScript의 이벤트 전파와 이벤트 처리
+
 DOM Node들에 addEventListener 메소드를 이용해 이벤트 핸들러를 등록하면 해당 이벤트가 발생할 경우 등록된 이벤트 핸들러(함수)가 호출되게 된다.
 
 Node들에 addEventListener 메소드를 이용해 핸들러를 등록 가능한것은 아래와 같은 Node 인터페이스 구조 때문이다.
