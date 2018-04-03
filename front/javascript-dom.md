@@ -21,17 +21,17 @@ console.dir(Node)
 
 Node는 EventTarget을 \_\_proto\_\_로 가지며, EventTarget를 상속하는 구조임을 알 수 있다.
 
-![](/assets/imges/js/node.png)
+![](/assets/images/js/node.png)
 
 각각의 노드들은 아래와 같은 상속 구조를 가진다. HTMLElement 하위에는 저 5개 뿐만 아니라, 엄청 많은 Element들이 더 있다.
 
-![](/assets/imges/js/domNode.png)
+![](/assets/images/js/domNode.png)
 
 평소에 div나, button이나 그런 DOM들에 어떻게 전부 addEventListener가 가능했을까?
 
 아무 버튼이나 querySelctor든, getElementById든 가져와 보면 아래처럼 \_\_proto\_\_ 속성이 HTMLButtonElement로 되어 있을 것이다.
 
-![](/assets/imges/js/button.png)
+![](/assets/images/js/button.png)
 
  HTMLButtonElement는 EventTarget의 자식이고, 여기서 프로토타입 체이닝을 통해서 EventTarget의 prototype에 있는 addEventListener 메소드를 사용할 수 있다.
 
@@ -73,11 +73,11 @@ console.log(document.body.firstElementChild); //<h1>
 
 위에서 유의할 점은, childNodes 메소드는 Node를 가져오기 때문에 아래처럼 text, element 구분 없이 전부 가져오게 된다. 
 
-![](/assets/imges/js/childNodes.png)
+![](/assets/images/js/childNodes.png)
 
 `<h1>`, `<ul>`로 이루어진 body에 5개나 들어가 있는데,이는 `<h1>`앞의 공백 또한 text로 Node로 취급하기 때문이다. 그에 반해 `children` 메소드는 Element들만을 출력하기 때문에 아래처럼 h1과 ul만 출력된다.
 
-![](/assets/imges/js/children.png)
+![](/assets/images/js/children.png)
 
 아마 Node를 쓰기 보다는, Element를 활용하는 경우가 많을테니 children을 쓰면 된다.
 
@@ -85,7 +85,7 @@ console.log(document.body.firstElementChild); //<h1>
 
 아마 아래의 메소드들은 유용하게 쓰일거 같다. parent는 부모 DOM, previousSibling은 이전 형제, child는 자식, first, last는 각각 첫번째 마지막 자식 DOM을 가져온다.
 
-![](/assets/imges/js/nodeAndElement.png)
+![](/assets/images/js/nodeAndElement.png)
 
 ### DOM Search
 
