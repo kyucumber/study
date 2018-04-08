@@ -16,7 +16,9 @@
 import java.util.*;
 class NLCM {
 	public long nlcm(int[] num) {
-		return Arrays.stream(num).mapToLong(i -> i).reduce((a, b) -> a * b / gcb(a, b)).getAsLong();
+		return Arrays.stream(num)
+            .mapToLong(i -> i)
+            .reduce((a, b) -> a * b / gcb(a, b)).getAsLong();
 	}
 	public static void main(String[] args) {
 		NLCM c = new NLCM();
