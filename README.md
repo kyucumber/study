@@ -6,7 +6,7 @@
 
 [자바스크립트에서의 이벤트 전파와 이벤트 처리](/front/javascript-event.md)
 
-[자바스크립트의 함수형 프로그래밍, Rxjs](/front/javascript-func-rxjs.md)(정리 중)
+[자바스크립트의 함수형 프로그래밍과 Lodash 라이브러리](/front/javascript-func-lodash.md)
 
 ### Algorithm
 
