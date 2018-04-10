@@ -22,7 +22,9 @@
 
 [N개의 최소공배수](/algorithm/algorithm-06.md)
 
-[숫자의 표현](/algorithm/algorithm-7.md)
+[숫자의 표현 - 프로그래머스 Level 4](/algorithm/algorithm-7.md)
+
+[최고의 집합 - 프로그래머스 Level 4](/algorithm/algorithm-8.md)
 
 
 
