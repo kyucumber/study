@@ -28,6 +28,8 @@
 
 [Codility 3-2 FrogJmp](/algorithm/algorithm-09.md)
 
+[Codility 3-3 PermMissingElem](/algorithm/algorithm-10.md)
+
 ## 정리할 예정
 
 ### Network(x)
