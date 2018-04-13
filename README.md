@@ -30,6 +30,10 @@
 
 [Codility 3-3 PermMissingElem](/algorithm/algorithm-10.md)
 
+[Codility 4-1 PermCheck](/algorithm/algorithm-11.md)
+
+
+
 ## 정리할 예정
 
 ### Network(x)
