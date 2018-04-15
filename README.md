@@ -32,7 +32,7 @@
 
 [Codility 4-1 PermCheck](/algorithm/algorithm-11.md)
 
-
+[Codility 4-2 FrogRiverOne](/algorithm/algorithm-12.md)
 
 ## 정리할 예정
 
